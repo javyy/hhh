@@ -235,7 +235,7 @@ function create_config( )
         "plugins"
         
     },
-    sudo_users = {Your Id},--Sudo users
+    sudo_users = { 278132257},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Put Everything You Like :) ( Don t Forgot Edit plugins/stats.lua]],
     help_text_realm = [[
@@ -675,7 +675,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id =  278132257
 now = os.time()
 math.randomseed(now)
 started = false
